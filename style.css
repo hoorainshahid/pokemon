@@ -1,0 +1,615 @@
+.header {
+    /* background-color: rgb(0, 238, 255); */
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.short:hover {
+    margin-top: 5px;
+
+
+}
+
+.short {
+    width: 150%;
+    height: 100%;
+    /* box-shadow: 10px 10px 5px grey; */
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px grey;
+    border: 2px solid grey;
+    /* border-radius: 20px 20px 20px 20px; */
+
+}
+
+/* .seccard2{
+    background-color: rgb(0, 255, 55);
+    width: 150px;   
+    height: 150px;
+    line-height: 40px;
+    padding-left: 20px;
+} */
+.secondcard {
+    /* background-color: blue; */
+    width: 220px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+
+.fivebox>img {
+    border-radius: 8px;
+}
+
+.secondcard>img {
+    border-radius: 3px;
+
+}
+
+.shorttwo:hover {
+    margin-top: 5px;
+
+}
+
+.shorttwo {
+    width: 100%;
+    /* margin-top: 10px; */
+    height: 195px;
+    /* border-radius: 20px ; */
+    border: 5px solid grey;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 8px 8px 10px grey;
+
+}
+
+.firstpic {
+    width: 100%;
+    height: 420px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 8px 8px 10px grey;
+
+}
+
+.fivetext {
+    width: 300px;
+    background-color: grey;
+    height: 150px;
+    box-shadow: 8px 8px 4px grey;
+    padding-left: 20px;
+    padding: 20px;
+    /* border-radius: 20px 20px 20px 20px; */
+    box-shadow: 8px 8px 10px grey;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.change {
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    /* align-items: start; */
+    height: 90vh;
+    /* float: left; */
+}
+
+/* .change2{
+    background-color: rgb(0, 255, 13);
+    width: 200px;
+height: 90vh; */
+/* } */
+.fivebox {
+    /* background-color: rgb(255, 0, 200); */
+    width: 330px;
+    height: 400px;
+    /* border: 4px solid rgb(0, 0, 0); */
+
+    /* margin-top: 200px; */
+
+}
+
+.main {
+    width: 100%;
+    /* height: 90vh; */
+    /* background-color:greenyellow; */
+    display: flex;
+
+}
+
+.card {
+    width: 550px;
+    /* background-color: blueviolet; */
+    margin-left: 180px;
+    margin-top: 30px;
+    /* border: 4px solid rgb(0, 0, 0); */
+    box-shadow: 8px 8px 4px grey;
+    border: 3px solid grey;
+    border-radius: 10px;
+
+}
+
+.card:hover {
+    box-shadow: 8px 8px 4px grey;
+    margin-top: 3px;
+
+
+}
+
+.cards {
+    background-color: skyblue;
+    width: 550px;
+    height: 150px;
+    box-shadow: 8px 8px 4px grey;
+
+
+}
+
+body {
+    background-image: url(./images/bg-image.jpg);
+}
+
+p {
+    text-align: center;
+    text-decoration: double;
+    text-transform: uppercase;
+}
+
+.box {
+    background-color: pink;
+    width: 90px;
+    box-shadow: 8px 8px 4px grey;
+
+}
+
+.boxone {
+    /* background-color: rgb(128, 165, 42); */
+    width: 140px;
+    text-align: center;
+    border-bottom: 5px solid rgb(128, 165, 42);
+    color: grey;
+    font-size: 20px;
+
+
+
+}
+
+.boxtwo {
+    /* background-color: rgb(42, 140, 165); */
+    width: 140px;
+    text-align: center;
+    border-bottom: 5px solid rgb(42, 140, 165);
+    color: grey;
+    font-size: 20px;
+
+
+
+
+}
+
+.boxthree {
+    /* background-color: rgb(52, 165, 42); */
+    width: 140px;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    border-bottom: 5px solid red;
+
+
+
+}
+
+span {
+    color: black;
+}
+
+.boxfour {
+    /* background-color: pink; */
+    width: 140px;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    border-bottom: 5px solid blue;
+
+
+
+}
+
+.boxfive {
+    /* background-color: rgb(165, 42, 118); */
+    width: 140px;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    border-bottom: 5px solid purple;
+
+
+}
+
+.boxsix {
+    /* background-color: rgb(61, 42, 165); */
+    width: 140px;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    border-bottom: 5px solid rgb(112, 216, 138);
+
+
+
+
+}
+
+.boxseven {
+    /* background-color:pink; */
+    width: 140px;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    border-bottom: 5px solid mediumpurple;
+
+    /* hover boxes */
+
+}
+
+.boxone:hover {
+    background-color: rgb(128, 165, 42);
+}
+
+.boxtwo:hover {
+    background-color: rgb(42, 140, 165);
+}
+
+.boxthree:hover {
+    background-color: red;
+}
+
+.boxfour:hover {
+    background-color: blue;
+}
+
+.boxfive:hover {
+    background-color: purple;
+}
+
+.boxsix:hover {
+    background-color: rgb(112, 216, 138);
+}
+
+.boxseven:hover {
+    background-color: mediumpurple;
+}
+
+.centercards {
+    /* background-color: rgb(21, 255, 0); */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: ;
+    /* justify-content: center; */
+
+}
+
+.center>img {
+    width: 100%;
+    box-shadow: 8px 8px 4px grey;
+    height: 300px;
+    border-radius: 3px;
+
+}
+
+.slowbro>img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 8px 8px 4px grey;
+
+}
+
+.powerful {
+    width: 100%;
+    height: 60%;
+    box-shadow: 8px 8px 4px grey;
+
+}
+
+.axewpic {
+    width: 100%;
+    height: 60%;
+    box-shadow: 8px 8px 4px grey;
+
+}
+
+.centerbox:hover {
+    margin-top: 3px;
+    background-color: rgb(99, 102, 102);
+
+
+}
+
+.centerbox {
+    background-color: rgb(170, 164, 164);
+    width: 300px;
+    height: 500px;
+    border-radius: 2%;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 8px 8px 4px 5px grey;
+    border: 3px solid grey;
+
+}
+
+.slowbro:hover {
+    margin-top: 3px;
+    background-color: rgb(99, 102, 102);
+
+}
+
+.slowbro {
+    background-color: rgb(170, 164, 164);
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 2%;
+    text-align: center;
+    box-shadow: 8px 8px 4px 5px grey;
+    border: 3px solid grey;
+
+
+}
+
+.center:hover {
+    margin-top: 3px;
+    background-color: rgb(99, 102, 102);
+
+}
+
+.center {
+    background-color: rgb(170, 164, 164);
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    box-shadow: 8px 8px 4px 5px grey;
+    margin-right: 20px;
+    border-radius: 2%;
+    text-align: center;
+    border: 3px solid grey;
+
+
+}
+
+
+
+.animal {
+    background-color: rgb(31, 31, 31);
+    width: 50%;
+    height: 800px;
+}
+
+.axew:hover {
+    margin-top: 3px;
+    background-color: rgb(99, 102, 102);
+}
+
+.axew {
+    background-color: rgb(170, 164, 164);
+    width: 300px;
+    height: 500px;
+    border-radius: 2%;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* padding-left: 15px; */
+    text-align: center;
+    box-shadow: 8px 8px 4px 5px grey;
+    border: 3px solid grey;
+
+
+}
+
+.important {
+    /* color: blueviolet; */
+    font-size: 20px;
+    padding-left: -100px;
+}
+
+.textfooterone {
+    text-align: center;
+    margin-top: 80px;
+    /* text-transform: uppercase; */
+    color: white;
+    margin-left: -80px;
+}
+
+.header3 {
+    /* background-color: rgb(0, 255, 0); */
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    display: flex;
+}
+
+.headerchild {
+    width: 50%;
+    background-color: rgb(31, 31, 31);
+    height: 800px;
+}
+
+select {
+    height: 45px;
+    width: 220px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    border-radius: 10px;
+
+
+}
+
+.footernext {
+    margin-top: 80px;
+    margin-left: 85px;
+    color: white;
+}
+
+span {
+    /* color: azure; */
+    font-size: 20px;
+    word-spacing: 4px;
+    color: white;
+
+}
+
+.checkboxthree {
+    height: 15px;
+    width: 180px;
+    margin-left: 0px;
+}
+
+.checkboxtwo {
+    height: 15px;
+    width: 180px;
+    margin-left: 0px;
+
+}
+
+.checkbox {
+    height: 15px;
+    width: 180px;
+    margin-left: 0px;
+
+    /* margin-left: 20px; */
+    /* margin-top: 5px; */
+}
+
+input {
+    height: 40px;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    border-radius: 10px;
+
+
+}
+
+.birthday {
+    height: 40px;
+    width: 405px;
+    padding-left: 20px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+
+}
+
+.footertext {
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.fblogo {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+
+}
+
+.fblogo:hover {
+    background-color: antiquewhite;
+}
+
+.instralogo {
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+
+}
+
+.instralogo:hover {
+    background-color: antiquewhite;
+}
+
+.youtubelogo {
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+
+}
+
+.youtubelogo:hover {
+    background-color: antiquewhite;
+}
+
+.printrest:hover {
+    background-color: antiquewhite;
+}
+
+.printrest {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.twiterlogo:hover {
+    background-color: antiquewhite;
+}
+
+.twiterlogo {
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+
+}
+
+ul>li {
+    color: white;
+    word-spacing: 3px;
+    line-height: 25px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.material-symbols-outlined {
+    color: grey;
+}
+
+.btntwo:hover {
+    background-color: rgb(102, 73, 73);
+}
+
+.btntwo {
+    width: 280px;
+    height: 80px;
+    margin-top: 120px;
+    margin-left: 30px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);
+    text-decoration: double;
+    font-size: 16px;
+}
+
+.footerpic {
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 70px;
+}
